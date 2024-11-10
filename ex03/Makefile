@@ -6,13 +6,13 @@
 #    By: dmodrzej <dmodrzej@student.42warsaw.pl>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/09 21:35:58 by dmodrzej          #+#    #+#              #
-#    Updated: 2024/11/10 00:26:45 by dmodrzej         ###   ########.fr        #
+#    Updated: 2024/11/10 21:07:31 by dmodrzej         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 name = a
 
-sources = main.cpp Fixed.cpp
+sources = main.cpp Fixed.cpp Point.cpp bsp.cpp
 
 objects = $(sources:.cpp=.o)
 
